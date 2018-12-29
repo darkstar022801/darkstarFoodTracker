@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="input_style.css">
-    <script src="input_form.js"></script>
+    <!-- this does not go here, all script tags should be together -->
+    <!--<script src="input_form.js"></script>-->
     <title>Student Information</title>
 
   </head>
@@ -45,7 +46,9 @@
     <input type="radio" class="form-control" name="options" id="option3" autocomplete="off"> Female
   </label>
 
-  <input class="btn btn-primary" type="submit" value="Submit" onclick="validateForm()">
+<!-- a type "submit" will actually attempt to POST to the server, for the time being, use type "button" to simply execute an onclick -->
+  <!--<input class="btn btn-primary" type="submit" value="Submit" onclick="validateForm()">-->
+  <input class="btn btn-primary" type="button" value="Submit" onclick="validateForm()">
 
   </form>
 
@@ -55,7 +58,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
+<!-- I copied this from above, keep all script tags together -->
+<script src="input_form.js"></script>
 
   </body>
 
