@@ -1,0 +1,7 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background: linear-gradient(to bottom, rgb(109,179,242) 0%,rgb(84,163,238) 50%,rgb(54,144,240) 51%,rgb(30,105,222) 100%);
+}
